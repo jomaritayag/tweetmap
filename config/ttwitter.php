@@ -21,5 +21,5 @@ return [
 
     'radius' => '50km',
     'size' => 20,
-    'time' => 3600,
+    'lifetime' => 3600,
 ];

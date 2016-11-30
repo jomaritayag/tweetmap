@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('tweet/find', 
-	'TweetController@find'
-)->name('tweet.find');
+Route::get('tweet/search', 
+	'TweetController@search'
+)->name('tweet.search');
