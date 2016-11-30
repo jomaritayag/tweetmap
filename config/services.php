@@ -35,4 +35,8 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'map' => [
+        'key' => env('MAP_KEY')
+    ]
+
 ];
