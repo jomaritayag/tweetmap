@@ -1,3 +1,18 @@
+Search Tweets based on Location (City)
+=====================================
+
+Installation
+------------
+
+> Requirements: 
+PHP >= 5.6.4, Composer, Google Map API Key, Twitter API Credentials
+
+> Step 1: $ composer install
+>
+> Step 2: Copy .env.example contents to .env (Add Google Map API key and Twitter API Credentials)
+>
+> Step 3: $ php artisan key:generate
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
@@ -13,14 +28,6 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 ## Official Documentation
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
