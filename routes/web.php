@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
+
+Route::get('tweet/search', 
+	'TweetController@search'
+)->name('tweet.search');
